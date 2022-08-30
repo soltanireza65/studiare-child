@@ -158,9 +158,16 @@ $current_user = wp_get_current_user();
                         border-radius: 24px;
                     }
                 </style>
-                <!-- style="position: absolute; left: 20px; top: 20px; cursor: pointer;" -->
-                <p id="click" style="text-align: left;">ویدئوها
-                </p>
+                <?php if (wc_customer_bought_product($current_user->user_email, $current_user->ID, $product->get_id())) : ?>
+                    <div style="display: flex; justify-content: flex-end;">
+                        <p id="click" style="text-align: left;
+                               text-align: left;
+                               border-radius: 14px;
+                               border: 1px solid #1FBD50;
+                               padding: 5px 15px;
+                               cursor: pointer;">مشاهده ویدئو ها</p>
+                    </div>
+                <?php endif; ?>
 
                 <?php the_content(); ?>
                 <div id="target"></div>
@@ -185,8 +192,17 @@ $current_user = wp_get_current_user();
                                         <ul class="wcdlar_download_list produc-page">
                                             <li style="border-radius: 14px; position: relative;">
                                                 <a href="#" class="title" style="margin-right: 20px;">
-                                                    <p style="position: absolute;text-align: center; right: -15px; top: 10px; border: 1px solid #ebebeb; background-color: #fff; border-radius: 50%; width: 30px; height: 30px;"><?php echo $c; ?></p>
+                                                    <p style="position: absolute;
+                                                    text-align: center; 
+                                                    right: -15px; top: 10px;
+                                                    border: 1px solid #ebebeb; 
+                                                    background-color: #fff; 
+                                                    border-radius: 50%; 
+                                                    width: 30px;
+                                                    height: 30px;"><?php echo $c; ?></p>
+
                                                     <?php echo  $download['file']['name'] ?>
+
                                                     <span class="arrow"></span>
                                                 </a>
                                                 <!-- <?php echo '<a href="#" class="title">' . $download['file']['name'] . '<span class="arrow"></span></a>'; ?> -->
@@ -206,7 +222,8 @@ $current_user = wp_get_current_user();
                                                             "displaytitle": true,
                                                             "displaycontextmenu": false,
                                                             "logoautohide": true
-                                                        }'></div>
+                                                        }'>
+                                                    </div>
                                                 </div>
                                             </li>
                                         </ul>
