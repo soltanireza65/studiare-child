@@ -206,24 +206,19 @@ $current_user = wp_get_current_user();
                                                     <span class="arrow"></span>
                                                 </a>
                                                 <!-- <?php echo '<a href="#" class="title">' . $download['file']['name'] . '<span class="arrow"></span></a>'; ?> -->
-                                                <div class="sub_items">
-                                                    <div id="" class="arvanplayer" style="width: 100%; height: 315px;" config="<?php echo esc_url($download['file']['file']); ?>" data-config='{
-                                                            "currenttime": 0,
-                                                            "autostart": false,
-                                                            "repeat": false,
-                                                            "mute": false,
-                                                            "preload": "auto",
-                                                            "controlbarautohide": true,
-                                                            "lang": "en",
-                                                            "aspectratio": "",
-                                                            "color": "",
-                                                            "controls": true,
-                                                            "touchnativecontrols": false,
-                                                            "displaytitle": true,
-                                                            "displaycontextmenu": false,
-                                                            "logoautohide": true
-                                                        }'>
-                                                    </div>
+                                                <div class="sub_items" style="display: block; width: 100%;">
+													<div class="arvanplayer">
+														<iframe
+															src="<?php echo esc_url($download['file']['file']); ?>&skin=shaka"
+															style="width: 100%; height: 431px; border-radius: 10px; overflow: hidden;" 
+															name="تابلو خوانی - محرابیان- قسمت 9-2.mp4" 
+															frameborder="0"
+															allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+															allowFullScreen="true"
+															webkitallowfullscreen="true" 
+															mozallowfullscreen="true">
+														</iframe>
+													</div>
                                                 </div>
                                             </li>
                                         </ul>
@@ -447,7 +442,7 @@ $current_user = wp_get_current_user();
 
     </div>
 </div>
-<script type="application/javascript" src="https://player.arvancloud.com/arvanplayer.min.js"></script>
+<!-- <script type="application/javascript" src="https://player.arvancloud.com/arvanplayer.min.js"></script> -->
 
 <?php do_action('woocommerce_after_single_product_summary'); ?>
 
