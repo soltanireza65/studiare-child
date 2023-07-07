@@ -22,17 +22,17 @@
     <meta name='fontiran.com:license' content='B7G43' />
     <meta name='fontiran.com:license' content='C6KGR' />
     <link rel="stylesheet" type="text/css"
-        href="landing-assets/static/bEHf0008/2.0.0/editor/bower_components/animate.css/animate.min.css" />
+        href="<?php bloginfo('stylesheet_directory')?>/landing-assets/static/bEHf0008/2.0.0/editor/bower_components/animate.css/animate.min.css" />
     <link rel="stylesheet" type="text/css"
-        href="landing-assets/static/bEHf0008/2.0.0/editor/bower_components/jquery-toast-plugin/dist/jquery.toast.min.css" />
+        href="<?php bloginfo('stylesheet_directory')?>/landing-assets/static/bEHf0008/2.0.0/editor/bower_components/jquery-toast-plugin/dist/jquery.toast.min.css" />
     <link rel="stylesheet" type="text/css"
-        href="landing-assets/static/bEHf0008/2.0.0/editor/bower_components/flexslider/flexslider.css" />
+        href="<?php bloginfo('stylesheet_directory')?>/landing-assets/static/bEHf0008/2.0.0/editor/bower_components/flexslider/flexslider.css" />
     <link rel="stylesheet" type="text/css"
-        href="landing-assets/static/bEHf0008/2.0.0/editor/bower_components/remodal/dist/remodal.css" />
+        href="<?php bloginfo('stylesheet_directory')?>/landing-assets/static/bEHf0008/2.0.0/editor/bower_components/remodal/dist/remodal.css" />
     <link rel="stylesheet" type="text/css"
-        href="landing-assets/static/bEHf0008/2.0.0/editor/bower_components/remodal/dist/remodal-default-theme.css" />
-    <link rel="stylesheet" type="text/css" href="landing-assets/static/bEHf0008/2.0.0/editor/css/base.css" />
-    <link rel="stylesheet" type="text/css" href="landing-assets/theme-1688656084/css/style.css" />
+        href="<?php bloginfo('stylesheet_directory')?>/landing-assets/static/bEHf0008/2.0.0/editor/bower_components/remodal/dist/remodal-default-theme.css" />
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_directory')?>/landing-assets/static/bEHf0008/2.0.0/editor/css/base.css" />
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_directory')?>/landing-assets/theme-1688656084/css/style.css" />
     <style>
         .wz-loader-container {
             position: fixed;
@@ -73,7 +73,7 @@
                     <div class='wzc2 wz-template'>
                         <div class='wzc2-frame'></div>
                         <div class='wzc2-img'><img class='wzc2-img-inner'
-                                src="landing-assets/uploads/b46346acdab6441b91a956512b151b0e.w_30,h_53,r_k.png" /></div>
+                                src="<?php bloginfo('stylesheet_directory')?>/landing-assets/uploads/b46346acdab6441b91a956512b151b0e.w_30,h_53,r_k.png" /></div>
                     </div>
                 </a>
                 <div id='wze583' class='wz-element' data-widget='wz-text' data-handles='w, e' data-minwidth='10'
@@ -149,7 +149,7 @@
                                 <div class='wzc2 wz-template'>
                                     <div class='wzc2-frame'></div>
                                     <div class='wzc2-img'><img class='wzc2-img-inner'
-                                            src="landing-assets/uploads/d8eecf2bbcac45acbacc01512f731c34.w_867,h_551,r_k.png" /></div>
+                                            src="<?php bloginfo('stylesheet_directory')?>/landing-assets/uploads/d8eecf2bbcac45acbacc01512f731c34.w_867,h_551,r_k.png" /></div>
                                 </div>
                             </div>
                         </div>
@@ -169,13 +169,13 @@
                                 <li
                                     data-thumb='https://649ef09e2d38e.mywebzi.ir/uploads/6028ab9a3f064f50bec178e8d0a3c688.png'>
                                     <div class='wz-slider-item'><img
-                                            src='landing-assets/uploads/6028ab9a3f064f50bec178e8d0a3c688.w_1165,h_696,r_k.png' alt=''
+                                            src='<?php bloginfo('stylesheet_directory')?>/landing-assets/uploads/6028ab9a3f064f50bec178e8d0a3c688.w_1165,h_696,r_k.png' alt=''
                                             class='wz-gallery-image' /></div>
                                 </li>
                                 <li
                                     data-thumb='https://649ef09e2d38e.mywebzi.ir/uploads/d1972fd6f19a4e9a975b8cb88d5b4f80.png'>
                                     <div class='wz-slider-item'><img
-                                            src='landing-assets/uploads/d1972fd6f19a4e9a975b8cb88d5b4f80.w_1165,h_696,r_k.png' alt=''
+                                            src='<?php bloginfo('stylesheet_directory')?>/landing-assets/uploads/d1972fd6f19a4e9a975b8cb88d5b4f80.w_1165,h_696,r_k.png' alt=''
                                             class='wz-gallery-image' /></div>
                                 </li>
                             </ul>
@@ -196,7 +196,7 @@
                                 <div class='wzc2 wz-template'>
                                     <div class='wzc2-frame'></div>
                                     <div class='wzc2-img'><img class='wzc2-img-inner'
-                                            src="landing-assets/uploads/52195db7d853480791f0ad35f73a1782.w_51,h_51,r_k.png" /></div>
+                                            src="<?php bloginfo('stylesheet_directory')?>/landing-assets/uploads/52195db7d853480791f0ad35f73a1782.w_51,h_51,r_k.png" /></div>
                                 </div>
                             </div>
                             <div id='wze389' class='wz-element' data-widget='wz-text' data-handles='w, e'
@@ -245,7 +245,7 @@
                                 <div class='wzc2 wz-template'>
                                     <div class='wzc2-frame'></div>
                                     <div class='wzc2-img'><img class='wzc2-img-inner'
-                                            src="landing-assets/uploads/01dcbcdb90c54e5cac1c36a68cd95858.w_51,h_51,r_k.png" /></div>
+                                            src="<?php bloginfo('stylesheet_directory')?>/landing-assets/uploads/01dcbcdb90c54e5cac1c36a68cd95858.w_51,h_51,r_k.png" /></div>
                                 </div>
                             </div>
                             <div id='wze664' class='wz-element' data-widget='wz-box' data-minHeight='1'
@@ -296,7 +296,7 @@
                                 <div class='wzc2 wz-template'>
                                     <div class='wzc2-frame'></div>
                                     <div class='wzc2-img'><img class='wzc2-img-inner'
-                                            src="landing-assets/uploads/8ce9ce45d3c04529b615734350003c3b.w_51,h_53,r_k.png" /></div>
+                                            src="<?php bloginfo('stylesheet_directory')?>/landing-assets/uploads/8ce9ce45d3c04529b615734350003c3b.w_51,h_53,r_k.png" /></div>
                                 </div>
                             </div>
                             <div id='wze669' class='wz-element' data-widget='wz-box' data-minHeight='1'
@@ -346,7 +346,7 @@
                                 <div class='wzc2 wz-template'>
                                     <div class='wzc2-frame'></div>
                                     <div class='wzc2-img'><img class='wzc2-img-inner'
-                                            src="landing-assets/uploads/8ce9ce45d3c04529b615734350003c3b.w_51,h_54,r_k.png" /></div>
+                                            src="<?php bloginfo('stylesheet_directory')?>/landing-assets/uploads/8ce9ce45d3c04529b615734350003c3b.w_51,h_54,r_k.png" /></div>
                                 </div>
                             </div>
                             <div id='wze674' class='wz-element' data-widget='wz-box' data-minHeight='1'
@@ -397,7 +397,7 @@
                                 <div class='wzc2 wz-template'>
                                     <div class='wzc2-frame'></div>
                                     <div class='wzc2-img'><img class='wzc2-img-inner'
-                                            src="landing-assets/uploads/52195db7d853480791f0ad35f73a1782.w_51,h_51,r_k.png" /></div>
+                                            src="<?php bloginfo('stylesheet_directory')?>/landing-assets/uploads/52195db7d853480791f0ad35f73a1782.w_51,h_51,r_k.png" /></div>
                                 </div>
                             </div>
                             <div id='wze679' class='wz-element' data-widget='wz-box' data-minHeight='1'
@@ -447,7 +447,7 @@
                                 <div class='wzc2 wz-template'>
                                     <div class='wzc2-frame'></div>
                                     <div class='wzc2-img'><img class='wzc2-img-inner'
-                                            src="landing-assets/uploads/52195db7d853480791f0ad35f73a1782.w_51,h_51,r_k.png" /></div>
+                                            src="<?php bloginfo('stylesheet_directory')?>/landing-assets/uploads/52195db7d853480791f0ad35f73a1782.w_51,h_51,r_k.png" /></div>
                                 </div>
                             </div>
                             <div id='wze684' class='wz-element' data-widget='wz-box' data-minHeight='1'
@@ -525,7 +525,7 @@
                                 <div class='wzc2 wz-template'>
                                     <div class='wzc2-frame'></div>
                                     <div class='wzc2-img'><img class='wzc2-img-inner'
-                                            src="landing-assets/uploads/7f407c36b017444099fe2b62691c1cfc.w_667,h_534,r_k.png" /></div>
+                                            src="<?php bloginfo('stylesheet_directory')?>/landing-assets/uploads/7f407c36b017444099fe2b62691c1cfc.w_667,h_534,r_k.png" /></div>
                                 </div>
                             </div>
                         </div>
@@ -804,13 +804,13 @@
                                             <li
                                                 data-thumb='https://649ef09e2d38e.mywebzi.ir/uploads/aae31c2d5cc54113820f0490265df903.png'>
                                                 <div class='wz-slider-item'><img
-                                                        src='landing-assets/uploads/aae31c2d5cc54113820f0490265df903.w_637,h_596,r_k.png'
+                                                        src='<?php bloginfo('stylesheet_directory')?>/landing-assets/uploads/aae31c2d5cc54113820f0490265df903.w_637,h_596,r_k.png'
                                                         alt='' class='wz-gallery-image' /></div>
                                             </li>
                                             <li
                                                 data-thumb='https://649ef09e2d38e.mywebzi.ir/uploads/87454ec9173445ddb64e342571bf75d2.png'>
                                                 <div class='wz-slider-item'><img
-                                                        src='landing-assets/uploads/87454ec9173445ddb64e342571bf75d2.w_637,h_596,r_k.png'
+                                                        src='<?php bloginfo('stylesheet_directory')?>/landing-assets/uploads/87454ec9173445ddb64e342571bf75d2.w_637,h_596,r_k.png'
                                                         alt='' class='wz-gallery-image' /></div>
                                             </li>
                                         </ul>
@@ -848,7 +848,7 @@
                                 <div class='wzc2 wz-template'>
                                     <div class='wzc2-frame'></div>
                                     <div class='wzc2-img'><img class='wzc2-img-inner'
-                                            src="landing-assets/uploads/4011d98c572d41c086e2f07beb3fbd85.w_526,h_529,r_k.png" /></div>
+                                            src="<?php bloginfo('stylesheet_directory')?>/landing-assets/uploads/4011d98c572d41c086e2f07beb3fbd85.w_526,h_529,r_k.png" /></div>
                                 </div>
                             </div><a id='wze1030' class='wz-element' data-widget='wz-button'
                                 href='https://armanx.trade/' target='_blank' data-animation='none'
@@ -881,7 +881,7 @@
                     <div class='wzc2 wz-template'>
                         <div class='wzc2-frame'></div>
                         <div class='wzc2-img'><img class='wzc2-img-inner'
-                                src="landing-assets/uploads/b46346acdab6441b91a956512b151b0e.w_30,h_51,r_k.png" /></div>
+                                src="<?php bloginfo('stylesheet_directory')?>/landing-assets/uploads/b46346acdab6441b91a956512b151b0e.w_30,h_51,r_k.png" /></div>
                     </div>
                 </div>
                 <div id='wze479' class='wz-element' data-widget='wz-text' data-handles='w, e' data-minwidth='10'
@@ -1089,21 +1089,21 @@
                     <div class='wzc2 wz-template'>
                         <div class='wzc2-frame'></div>
                         <div class='wzc2-img'><img class='wzc2-img-inner'
-                                src="landing-assets/uploads/c5f7340c89db49058e452de7124ffcfe.w_30,h_33,r_k.png" /></div>
+                                src="<?php bloginfo('stylesheet_directory')?>/landing-assets/uploads/c5f7340c89db49058e452de7124ffcfe.w_30,h_33,r_k.png" /></div>
                     </div>
                 </div>
                 <div id='wze741' class='wz-element' data-widget='wz-image'>
                     <div class='wzc2 wz-template'>
                         <div class='wzc2-frame'></div>
                         <div class='wzc2-img'><img class='wzc2-img-inner'
-                                src="landing-assets/uploads/ff85b826ca5249289e0c9c11f6389ec2.w_31,h_33,r_k.png" /></div>
+                                src="<?php bloginfo('stylesheet_directory')?>/landing-assets/uploads/ff85b826ca5249289e0c9c11f6389ec2.w_31,h_33,r_k.png" /></div>
                     </div>
                 </div>
                 <div id='wze742' class='wz-element' data-widget='wz-image'>
                     <div class='wzc2 wz-template'>
                         <div class='wzc2-frame'></div>
                         <div class='wzc2-img'><img class='wzc2-img-inner'
-                                src="landing-assets/uploads/862d3320f7414f3c88b8121676c1cc8f.w_30,h_33,r_k.png" /></div>
+                                src="<?php bloginfo('stylesheet_directory')?>/landing-assets/uploads/862d3320f7414f3c88b8121676c1cc8f.w_30,h_33,r_k.png" /></div>
                     </div>
                 </div>
                 <div id='wze868' class='wz-element' data-widget='wz-text' data-handles='w, e' data-minwidth='10'
@@ -1121,7 +1121,7 @@
                     <div class='wzc2 wz-template'>
                         <div class='wzc2-frame'></div>
                         <div class='wzc2-img'><img class='wzc2-img-inner'
-                                src="landing-assets/uploads/c5f7340c89db49058e452de7124ffcfe.w_30,h_33,r_k.png" /></div>
+                                src="<?php bloginfo('stylesheet_directory')?>/landing-assets/uploads/c5f7340c89db49058e452de7124ffcfe.w_30,h_33,r_k.png" /></div>
                     </div>
                 </div>
             </div>
@@ -1129,19 +1129,19 @@
         <script
             type="text/javascript">var currency_sign = " تومان"; var site_url = "https://649ef09e2d38e.mywebzi.ir/"; var upload_url = "https://649ef09e2d38e.mywebzi.ir/uploads/"; var site_api_url = "https://649ef09e2d38e.mywebzi.ir/api/"; var static_uri = "https://649ef09e2d38e.mywebzi.ir/static/bEHf0008/2.0.0/";</script>
         <script type="text/javascript"
-            src="landing-assets/static/bEHf0008/2.0.0/editor/bower_components/jquery/dist/jquery.min.js"></script>
+            src="<?php bloginfo('stylesheet_directory')?>/landing-assets/static/bEHf0008/2.0.0/editor/bower_components/jquery/dist/jquery.min.js"></script>
         <script type="text/javascript" src="https://webzi.ir/static/2.0.0/editor/js/modernizr-custom.js"></script>
-        <script type="text/javascript" src="landing-assets/static/bEHf0008/2.0.0/editor/js/animation.js"></script>
+        <script type="text/javascript" src="<?php bloginfo('stylesheet_directory')?>/landing-assets/static/bEHf0008/2.0.0/editor/js/animation.js"></script>
         <script type="text/javascript"
-            src="landing-assets/static/bEHf0008/2.0.0/editor/bower_components/jquery-toast-plugin/dist/jquery.toast.min.js"></script>
+            src="<?php bloginfo('stylesheet_directory')?>/landing-assets/static/bEHf0008/2.0.0/editor/bower_components/jquery-toast-plugin/dist/jquery.toast.min.js"></script>
         <script type="text/javascript"
-            src="landing-assets/static/bEHf0008/2.0.0/editor/bower_components/flexslider/jquery.flexslider-min.js"></script>
+            src="<?php bloginfo('stylesheet_directory')?>/landing-assets/static/bEHf0008/2.0.0/editor/bower_components/flexslider/jquery.flexslider-min.js"></script>
         <script type="text/javascript"
-            src="landing-assets/static/bEHf0008/2.0.0/editor/bower_components/lodash/dist/lodash.min.js"></script>
+            src="<?php bloginfo('stylesheet_directory')?>/landing-assets/static/bEHf0008/2.0.0/editor/bower_components/lodash/dist/lodash.min.js"></script>
         <script type="text/javascript"
-            src="landing-assets/static/bEHf0008/2.0.0/editor/bower_components/remodal/dist/remodal.min.js"></script>
-        <script type="text/javascript" src="landing-assets/static/bEHf0008/2.0.0/editor/js/frontBase.js"></script>
-        <script type="text/javascript" src="landing-assets/theme-1688656084/js/main.js"></script>
+            src="<?php bloginfo('stylesheet_directory')?>/landing-assets/static/bEHf0008/2.0.0/editor/bower_components/remodal/dist/remodal.min.js"></script>
+        <script type="text/javascript" src="<?php bloginfo('stylesheet_directory')?>/landing-assets/static/bEHf0008/2.0.0/editor/js/frontBase.js"></script>
+        <script type="text/javascript" src="<?php bloginfo('stylesheet_directory')?>/landing-assets/theme-1688656084/js/main.js"></script>
     </div>
 </body>
 
