@@ -1,201 +1,103 @@
-<?php /* Template Name: Landing Template */ ?>
+<?php /* Template Name: Landing Template */?>
 <!doctype html>
 <html lang="fa" dir="rtl">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content=" زی نو تردر، سامانه هوشمند معاملات برخط بازار سرمایه">
     <!-- <link href="./landing-assets/bootstrap.min.css" rel="stylesheet"> -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory')?>/landing-assets/styles.css">
-    
+    <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory') ?>/landing-assets/styles.css">
+
     <style>
         @font-face {
             font-family: iransans;
             font-style: normal;
             font-weight: 700;
-            src: url(<?php bloginfo('stylesheet_directory')?>/landing-assets/fonts/iransans/eot/IRANSansWeb_Bold.eot);
-            src: url(<?php bloginfo('stylesheet_directory')?>/landing-assets/fonts/iransans/eot/IRANSansWeb_Bold.eot@)
-                format("embedded-opentype"),
-                url(<?php bloginfo('stylesheet_directory')?>/landing-assets/fonts/iransans/woff2/IRANSansWeb_Bold.woff2) format("woff2"),
-                url(<?php bloginfo('stylesheet_directory')?>/landing-assets/fonts/iransans/woff/IRANSansWeb_Bold.woff) format("woff"),
-                url(<?php bloginfo('stylesheet_directory')?>/landing-assets/fonts/iransans/ttf/IRANSansWeb_Bold.ttf) format("truetype");
-            }
+            src: url("<?php bloginfo('stylesheet_directory') ?>/landing-assets/fonts/iransans/eot/IRANSansWeb_Bold.eot");
+            src: url("<?php bloginfo('stylesheet_directory') ?>/landing-assets/fonts/iransans/eot/IRANSansWeb_Bold.eot@") format("embedded-opentype"),
+                url("<?php bloginfo('stylesheet_directory') ?>/landing-assets/fonts/iransans/woff2/IRANSansWeb_Bold.woff2") format("woff2"),
+                url("<?php bloginfo('stylesheet_directory') ?>/landing-assets/fonts/iransans/woff/IRANSansWeb_Bold.woff") format("woff"),
+                url("<?php bloginfo('stylesheet_directory') ?>/landing-assets/fonts/iransans/ttf/IRANSansWeb_Bold.ttf") format("truetype");
+        }
 
         @font-face {
             font-family: iransans;
             font-style: normal;
             font-weight: 500;
-            src: url(<?php bloginfo('stylesheet_directory')?>/landing-assets/fonts/iransans/eot/IRANSansWeb_Medium.eot);
-            src: url(<?php bloginfo('stylesheet_directory')?>/landing-assets/fonts/iransans/eot/IRANSansWeb_Medium.eot@)
-                format("embedded-opentype"),
-                url(<?php bloginfo('stylesheet_directory')?>/landing-assets/fonts/iransans/woff2/IRANSansWeb_Medium.woff2) format("woff2"),
-                url(<?php bloginfo('stylesheet_directory')?>/landing-assets/fonts/iransans/woff/IRANSansWeb_Medium.woff) format("woff"),
-                url(<?php bloginfo('stylesheet_directory')?>/landing-assets/fonts/iransans/ttf/IRANSansWeb_Medium.ttf) format("truetype");
+            src: url("<?php bloginfo('stylesheet_directory') ?>/landing-assets/fonts/iransans/eot/IRANSansWeb_Medium.eot");
+            src: url("<?php bloginfo('stylesheet_directory') ?>/landing-assets/fonts/iransans/eot/IRANSansWeb_Medium.eot@") format("embedded-opentype"),
+                url("<?php bloginfo('stylesheet_directory') ?>/landing-assets/fonts/iransans/woff2/IRANSansWeb_Medium.woff2") format("woff2"),
+                url("<?php bloginfo('stylesheet_directory') ?>/landing-assets/fonts/iransans/woff/IRANSansWeb_Medium.woff") format("woff"),
+                url("<?php bloginfo('stylesheet_directory') ?>/landing-assets/fonts/iransans/ttf/IRANSansWeb_Medium.ttf") format("truetype");
         }
 
         @font-face {
             font-family: iransans;
             font-style: normal;
             font-weight: 300;
-            src: url(<?php bloginfo('stylesheet_directory')?>/landing-assets/fonts/iransans/eot/IRANSansWeb_Light.eot);
-            src: url(<?php bloginfo('stylesheet_directory')?>/landing-assets/fonts/iransans/eot/IRANSansWeb_Light.eot@)
-                format("embedded-opentype"),
-                url(<?php bloginfo('stylesheet_directory')?>/landing-assets/fonts/iransans/woff2/IRANSansWeb_Light.woff2) format("woff2"),
-                url(<?php bloginfo('stylesheet_directory')?>/landing-assets/fonts/iransans/woff/IRANSansWeb_Light.woff) format("woff"),
-                url(<?php bloginfo('stylesheet_directory')?>/landing-assets/fonts/iransans/ttf/IRANSansWeb_Light.ttf) format("truetype");
+            src: url("<?php bloginfo('stylesheet_directory') ?>/landing-assets/fonts/iransans/eot/IRANSansWeb_Light.eot");
+            src: url("<?php bloginfo('stylesheet_directory') ?>/landing-assets/fonts/iransans/eot/IRANSansWeb_Light.eot@") format("embedded-opentype"),
+                url("<?php bloginfo('stylesheet_directory') ?>/landing-assets/fonts/iransans/woff2/IRANSansWeb_Light.woff2") format("woff2"),
+                url("<?php bloginfo('stylesheet_directory') ?>/landing-assets/fonts/iransans/woff/IRANSansWeb_Light.woff") format("woff"),
+                url("<?php bloginfo('stylesheet_directory') ?>/landing-assets/fonts/iransans/ttf/IRANSansWeb_Light.ttf") format("truetype");
         }
 
         @font-face {
             font-family: iransans;
             font-style: normal;
             font-weight: 200;
-            src: url(<?php bloginfo('stylesheet_directory')?>/landing-assets/fonts/iransans/eot/IRANSansWeb_UltraLight.eot);
-            src: url(<?php bloginfo('stylesheet_directory')?>/landing-assets/fonts/iransans/eot/IRANSansWeb_UltraLight.eot@)
-                format("embedded-opentype"),
-                url(<?php bloginfo('stylesheet_directory')?>/landing-assets/fonts/iransans/woff2/IRANSansWeb_UltraLight.woff2) format("woff2"),
-                url(<?php bloginfo('stylesheet_directory')?>/landing-assets/fonts/iransans/woff/IRANSansWeb_UltraLight.woff) format("woff"),
-                url(<?php bloginfo('stylesheet_directory')?>/landing-assets/fonts/iransans/ttf/IRANSansWeb_UltraLight.ttf) format("truetype");
+            src: url("<?php bloginfo('stylesheet_directory') ?>/landing-assets/fonts/iransans/eot/IRANSansWeb_UltraLight.eot");
+            src: url("<?php bloginfo('stylesheet_directory') ?>/landing-assets/fonts/iransans/eot/IRANSansWeb_UltraLight.eot@") format("embedded-opentype"),
+                url("<?php bloginfo('stylesheet_directory') ?>/landing-assets/fonts/iransans/woff2/IRANSansWeb_UltraLight.woff2") format("woff2"),
+                url("<?php bloginfo('stylesheet_directory') ?>/landing-assets/fonts/iransans/woff/IRANSansWeb_UltraLight.woff") format("woff"),
+                url("<?php bloginfo('stylesheet_directory') ?>/landing-assets/fonts/iransans/ttf/IRANSansWeb_UltraLight.ttf") format("truetype");
         }
 
         @font-face {
             font-family: iransans;
             font-style: normal;
             font-weight: 400;
-            src: url(<?php bloginfo('stylesheet_directory')?>/landing-assets/fonts/iransans/eot/IRANSansWeb.eot);
-            src: url(<?php bloginfo('stylesheet_directory')?>/landing-assets/fonts/iransans/eot/IRANSansWeb.eot@) format("embedded-opentype"),
-                url(<?php bloginfo('stylesheet_directory')?>/landing-assets/fonts/iransans/woff2/IRANSansWeb.woff2) format("woff2"),
-                url(<?php bloginfo('stylesheet_directory')?>/landing-assets/fonts/iransans/woff/IRANSansWeb.woff) format("woff"),
-                url(<?php bloginfo('stylesheet_directory')?>/landing-assets/fonts/iransans/ttf/IRANSansWeb.ttf) format("truetype");
-        }
-
-        body {
-        color: #fff;
-        font-family: "iransans";
-        margin: 0;
-        padding: 0;
-        border: 0;
-        background-color: rgb(0, 9, 30);
-        /* width: 100vw; */
-        /* overflow-x: hidden; */
+            src: url("<?php bloginfo('stylesheet_directory') ?>/landing-assets/fonts/iransans/eot/IRANSansWeb.eot");
+            src: url("<?php bloginfo('stylesheet_directory') ?>/landing-assets/fonts/iransans/eot/IRANSansWeb.eot@") format("embedded-opentype"),
+                url("<?php bloginfo('stylesheet_directory') ?>/landing-assets/fonts/iransans/woff2/IRANSansWeb.woff2") format("woff2"),
+                url("<?php bloginfo('stylesheet_directory') ?>/landing-assets/fonts/iransans/woff/IRANSansWeb.woff") format("woff"),
+                url("<?php bloginfo('stylesheet_directory') ?>/landing-assets/fonts/iransans/ttf/IRANSansWeb.ttf") format("truetype");
         }
 
         .container-with-background {
-        background-image: url("<?php bloginfo('stylesheet_directory')?>/landing-assets/images/bg.png");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-attachment: fixed;
-        height: 100vh;
+            background-image: url("<?php bloginfo('stylesheet_directory') ?>/landing-assets/images/bg.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-attachment: fixed;
+            height: 100vh;
         }
+
         .container-with-background_2 {
-        background-image: url("<?php bloginfo('stylesheet_directory')?>/landing-assets/images/bg_2.png");
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-attachment: fixed;
-        height: 100vh;
-        }
-        @media (max-width: 768px) {
-        .container-with-background {
-            /* background-image: none; */
-            height: 50vh;
-        }
-        .container-with-background_2 {
-            /* background-image: none; */
-            height: 75vh;
-        }
-        .title {
-            font-size: 16px;
-        }
-        }
-        .p_size {
-        font-size: 14px;
-        font-weight: lighter;
-        }
-        .button {
-        border-radius: 10px;
-        border: 1px solid var(--blue-on-dark, #7890ff);
-        background: rgba(120, 144, 255, 0.2);
-        color: #7890ff;
-        font-size: 14px;
-        }
-        .button:hover {
-        background: rgba(120, 144, 255, 0.4);
-        color: #7890ff;
-        }
-        .button_outline {
-        border-radius: 10px;
-        border: 1px solid var(--blue-on-dark, #7890ff);
-        /* background: rgba(120, 144, 255, 0.2); */
-        color: #7890ff;
-        font-size: 14px;
-        }
-        .button_outline:hover {
-        background: rgba(120, 144, 255, 0.4);
-        color: #7890ff;
-        }
-        .rounded-video {
-        border-radius: 20px;
-        overflow: hidden;
-        }
-        .rounded-video video {
-        width: 100%;
-        height: auto;
-        }
-
-        .section {
-        /* min-height: 70vh; */
-        background: linear-gradient(
-            180deg,
-            rgb(0, 9, 30) 0%,
-            rgba(0, 0, 0, 0.322) 23%,
-            rgb(0, 9, 30) 73%
-        );
-        }
-
-        .card {
-        background-color: rgba(97, 130, 250, 0.08);
-        /* background: linear-gradient(0deg, rgba(48, 120, 190, 0) 25%, rgba(38, 94, 149, .2) 70%); */
-
-        border-color: rgba(97, 130, 250, 0.178);
-        }
-
-        .line {
-        background-color: aqua;
-        height: 2px;
-        width: 50%;
-        }
-
-        .list-item {
-        background: linear-gradient(
-            90deg,
-            rgba(48, 120, 190, 0) 25%,
-            rgba(38, 94, 149, 0.2) 70%
-        );
-        }
-
-        .title {
-        font-size: 24px;
-        }
-
-        img {
-        max-width: max-content;
-        height: auto;
+            background-image: url("<?php bloginfo('stylesheet_directory') ?>/landing-assets/images/bg_2.png");
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-attachment: fixed;
+            height: 100vh;
         }
     </style>
+
     <title>​Xino trading platform</title>
 </head>
 
 <body>
 
     <!-- header start -->
-    <div class="w-100 py-2 "  style="z-index: 1;   background: linear-gradient(201deg,rgba(0,0,0,1) 5%,rgb(0,9,30) 47%);">
+    <div class="w-100 py-2 "
+        style="z-index: 1;   background: linear-gradient(201deg,rgba(0,0,0,1) 5%,rgb(0,9,30) 47%);">
         <div class="container horizontal-align">
             <div class=" d-flex justify-content-center">
                 <div class="py-2 d-flex align-items-center gap-2">
                     <h6 class="fs-5 fw-normal m-0">​Xino trading platform</h6>
-                    <img src="<?php bloginfo('stylesheet_directory')?>/landing-assets/images/logo.png" alt="">
+                    <img src="<?php bloginfo('stylesheet_directory') ?>/landing-assets/images/logo.png" alt="">
                 </div>
             </div>
         </div>
@@ -208,18 +110,20 @@
             <div class="container-with-background_2">
                 <div class=" container d-flex flex-column align-items-center text-center">
                     <div class="mb-3">
-                    <h3 class="fw-bold title">زی نــــو تریـــدر</h3>
-                    <h5> سامانه هوشمند معاملات برخط بازار سرمایه</h5>
-                    <p class="p_size">زی نو تریدر تجربه نو و لذت بخش از سرمایه گذاری را در بازارهای مالی فراهم کرده است . </p>
+                        <h3 class="fw-bold title">زی نــــو تریـــدر</h3>
+                        <h5> سامانه هوشمند معاملات برخط بازار سرمایه</h5>
+                        <p class="p_size">زی نو تریدر تجربه نو و لذت بخش از سرمایه گذاری را در بازارهای مالی فراهم کرده
+                            است . </p>
                     </div>
-                    <img src="<?php bloginfo('stylesheet_directory')?>/landing-assets/images/hero.png" class="d-block w-100 mb-3 " alt="">
-                    
+                    <img src="<?php bloginfo('stylesheet_directory') ?>/landing-assets/images/hero.png"
+                        class="d-block w-100 mb-3 " alt="">
+
                 </div>
-       
-                <div class=" mt-3 d-flex justify-content-center gap-2"> 
+
+                <div class=" mt-3 d-flex justify-content-center gap-2">
                     <a href="https://armanx.trade/" class="btn button px-5">شروع معامله</a>
                     <!-- <a href="https://academy.xana.biz/" class="btn button_outline px-4"> اطلاعات بیشتر</a> -->
-                 
+
                 </div>
             </div>
         </div>
@@ -233,10 +137,12 @@
             <div id="carouselControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="<?php bloginfo('stylesheet_directory')?>/landing-assets/images/carousel/1.png" class="d-block w-100" alt="...">
+                        <img src="<?php bloginfo('stylesheet_directory') ?>/landing-assets/images/carousel/1.png"
+                            class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="<?php bloginfo('stylesheet_directory')?>/landing-assets/images/carousel/2.png" class="d-block w-100" alt="...">
+                        <img src="<?php bloginfo('stylesheet_directory') ?>/landing-assets/images/carousel/2.png"
+                            class="d-block w-100" alt="...">
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls"
@@ -259,7 +165,8 @@
             <div class="row g-4">
                 <div class="col-sm-12 col-md-6 col-lg-4">
                     <div class="card d-flex flex-column align-items-center text-center py-3">
-                        <img src="<?php bloginfo('stylesheet_directory')?>/landing-assets/images/icons/1.png" class="card-img-top w-25" alt="...">
+                        <img src="<?php bloginfo('stylesheet_directory') ?>/landing-assets/images/icons/1.png"
+                            class="card-img-top w-25" alt="...">
                         <p class="card-title">​​​استفاده آسان</p>
                         <div class="card-body">
                             <p class="card-text">زینو تریدر علاوه بر نسخه دسکتاب در گوشی های هوشمند Android و IOS به
@@ -270,7 +177,8 @@
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-4">
                     <div class="card d-flex flex-column align-items-center text-center py-3">
-                        <img src="<?php bloginfo('stylesheet_directory')?>/landing-assets/images/icons/1.png" class="card-img-top w-25" alt="...">
+                        <img src="<?php bloginfo('stylesheet_directory') ?>/landing-assets/images/icons/1.png"
+                            class="card-img-top w-25" alt="...">
                         <p class="card-title">​​​استفاده آسان</p>
                         <div class="card-body">
                             <p class="card-text">زینو تریدر علاوه بر نسخه دسکتاب در گوشی های هوشمند Android و IOS به
@@ -281,7 +189,8 @@
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-4">
                     <div class="card d-flex flex-column align-items-center text-center py-3">
-                        <img src="<?php bloginfo('stylesheet_directory')?>/landing-assets/images/icons/1.png" class="card-img-top w-25" alt="...">
+                        <img src="<?php bloginfo('stylesheet_directory') ?>/landing-assets/images/icons/1.png"
+                            class="card-img-top w-25" alt="...">
                         <p class="card-title">​​​استفاده آسان</p>
                         <div class="card-body">
                             <p class="card-text">زینو تریدر علاوه بر نسخه دسکتاب در گوشی های هوشمند Android و IOS به
@@ -292,7 +201,8 @@
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-4">
                     <div class="card d-flex flex-column align-items-center text-center py-3">
-                        <img src="<?php bloginfo('stylesheet_directory')?>/landing-assets/images/icons/1.png" class="card-img-top w-25" alt="...">
+                        <img src="<?php bloginfo('stylesheet_directory') ?>/landing-assets/images/icons/1.png"
+                            class="card-img-top w-25" alt="...">
                         <p class="card-title">​​​استفاده آسان</p>
                         <div class="card-body">
                             <p class="card-text">زینو تریدر علاوه بر نسخه دسکتاب در گوشی های هوشمند Android و IOS به
@@ -303,7 +213,8 @@
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-4">
                     <div class="card d-flex flex-column align-items-center text-center py-3">
-                        <img src="<?php bloginfo('stylesheet_directory')?>/landing-assets/images/icons/1.png" class="card-img-top w-25" alt="...">
+                        <img src="<?php bloginfo('stylesheet_directory') ?>/landing-assets/images/icons/1.png"
+                            class="card-img-top w-25" alt="...">
                         <p class="card-title">​​​استفاده آسان</p>
                         <div class="card-body">
                             <p class="card-text">زینو تریدر علاوه بر نسخه دسکتاب در گوشی های هوشمند Android و IOS به
@@ -314,7 +225,8 @@
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-4">
                     <div class="card d-flex flex-column align-items-center text-center py-3">
-                        <img src="<?php bloginfo('stylesheet_directory')?>/landing-assets/images/icons/1.png" class="card-img-top w-25" alt="...">
+                        <img src="<?php bloginfo('stylesheet_directory') ?>/landing-assets/images/icons/1.png"
+                            class="card-img-top w-25" alt="...">
                         <p class="card-title">​​​استفاده آسان</p>
                         <div class="card-body">
                             <p class="card-text">زینو تریدر علاوه بر نسخه دسکتاب در گوشی های هوشمند Android و IOS به
@@ -330,7 +242,8 @@
 
     <div class="section hero d-flex flex-column align-items-center justify-content-around gap-2 my-5">
         <div class="container">
-            <h3 class="fw-bold title text-center mb-5 ">​​​​​​زینو تریدر با رابط کاربری هوشمند و سریع سرعت تصمیم گیری شما را افزایش
+            <h3 class="fw-bold title text-center mb-5 ">​​​​​​زینو تریدر با رابط کاربری هوشمند و سریع سرعت تصمیم گیری
+                شما را افزایش
                 می
                 دهد</h3>
             <div class="container">
@@ -347,10 +260,12 @@
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-7 col-lg-7">
-                        <img src="<?php bloginfo('stylesheet_directory')?>/landing-assets/images/details.png" class="d-block w-100" alt="">
+                        <img src="<?php bloginfo('stylesheet_directory') ?>/landing-assets/images/details.png"
+                            class="d-block w-100" alt="">
                     </div>
                     <div class="col-sm-12 col-md-7 col-lg-7">
-                        <img src="<?php bloginfo('stylesheet_directory')?>/landing-assets/images/chart.png"  class="d-block w-100" alt="">
+                        <img src="<?php bloginfo('stylesheet_directory') ?>/landing-assets/images/chart.png"
+                            class="d-block w-100" alt="">
                     </div>
                     <div class="col-sm-12 col-md-5 col-lg-5">
                         <div class="d-flex flex-column g-3">
@@ -369,19 +284,22 @@
 
     <div class="section hero my-5 ">
         <div class="container-with-background_2 container-fluid">
-        <div class="container d-flex flex-column align-items-center justify-content-center">
-            <h3 class="fw-bold text-center my-5 title">نسخه موبایل زینو تریدر فراتر از یک ابزار معاملاتی ساده ، سریع ، با تمام امکانات
-                نسخه
-                دسکتاپ
-            </h3>
-            <img src="<?php bloginfo('stylesheet_directory')?>/landing-assets/images/mobile.png" style="max-width:75%;" alt="">
-            <div class=" mt-3 d-flex justify-content-center gap-2 mb-4"> 
-                <a href="https://armanx.trade/" class="btn button px-4">شروع معامله</a>
-                <a href="https://academy.xana.biz/xanis-trade-guide/landing/" class="btn button_outline px-5"> اطلاعات بیشتر</a>
-             
+            <div class="container d-flex flex-column align-items-center justify-content-center">
+                <h3 class="fw-bold text-center my-5 title">نسخه موبایل زینو تریدر فراتر از یک ابزار معاملاتی ساده ، سریع
+                    ، با تمام امکانات
+                    نسخه
+                    دسکتاپ
+                </h3>
+                <img src="<?php bloginfo('stylesheet_directory') ?>/landing-assets/images/mobile.png"
+                    style="max-width:75%;" alt="">
+                <div class=" mt-3 d-flex justify-content-center gap-2 mb-4">
+                    <a href="https://armanx.trade/" class="btn button px-4">شروع معامله</a>
+                    <a href="https://academy.xana.biz/xanis-trade-guide/landing/" class="btn button_outline px-5">
+                        اطلاعات بیشتر</a>
+
+                </div>
             </div>
         </div>
-    </div>
     </div>
     <div class="section hero my-5">
         <div class="container d-flex flex-column align-items-center justify-content-center">
@@ -390,10 +308,12 @@
                 دسکتاپ
             </h3>
              -->
-            <video class="w-75"  muted controls rounded rounded-video>
-                <source src="https://xana-academy.arvanvod.ir/5jRWAr4Zpb/pG8XBmx3yg/origin_W2SYz1OuOtO1vLxeOtqWiOyDda9ldNY5tOaW59Qt.mp4" type="video/mp4" />
-              </video>
-           
+            <video class="w-75" muted controls rounded rounded-video>
+                <source
+                    src="https://xana-academy.arvanvod.ir/5jRWAr4Zpb/pG8XBmx3yg/origin_W2SYz1OuOtO1vLxeOtqWiOyDda9ldNY5tOaW59Qt.mp4"
+                    type="video/mp4" />
+            </video>
+
         </div>
     </div>
 
@@ -401,18 +321,22 @@
         <div class="container ">
             <footer class="d-flex flex-wrap justify-content-between align-items-start py-3 ">
                 <div class="d-flex align-items-center gap-3">
-                    <img src="<?php bloginfo('stylesheet_directory')?>/landing-assets/images/logo.png" alt="">
+                    <img src="<?php bloginfo('stylesheet_directory') ?>/landing-assets/images/logo.png" alt="">
                     <h3 class="text-muted m-0">Xaniis</h3>
                 </div>
                 <ul class="nav d-flex">
                     <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"><img
-                                src="<?php bloginfo('stylesheet_directory')?>/landing-assets/images/icons/glob.png" alt=""> Info@xaniis.com​​​​​​​</a></li>
+                                src="<?php bloginfo('stylesheet_directory') ?>/landing-assets/images/icons/glob.png"
+                                alt=""> Info@xaniis.com​​​​​​​</a></li>
                     <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"><img
-                                src="<?php bloginfo('stylesheet_directory')?>/landing-assets/images/icons/glob.png" alt=""> ​​www.xaniis.com</a></li>
+                                src="<?php bloginfo('stylesheet_directory') ?>/landing-assets/images/icons/glob.png"
+                                alt=""> ​​www.xaniis.com</a></li>
                     <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"><img
-                                src="<?php bloginfo('stylesheet_directory')?>/landing-assets/images/icons/phone.png" alt=""> 021‌‌-91079605</a></li>
+                                src="<?php bloginfo('stylesheet_directory') ?>/landing-assets/images/icons/phone.png"
+                                alt=""> 021‌‌-91079605</a></li>
                     <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"><img
-                                src="<?php bloginfo('stylesheet_directory')?>/landing-assets/images/icons/marker.png" alt=""> تهران ، بلوار آفریقا، کوچه
+                                src="<?php bloginfo('stylesheet_directory') ?>/landing-assets/images/icons/marker.png"
+                                alt=""> تهران ، بلوار آفریقا، کوچه
                             سپرپلاک ۱۷</a></li>
                 </ul>
             </footer>
