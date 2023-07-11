@@ -1,57 +1,48 @@
-/* @font-face {
-  font-family: iransans;
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "trading-platform-icon" !important;
+  speak: never;
   font-style: normal;
-  font-weight: 700;
-  src: url(./fonts/iransans/eot/IRANSansWeb_Bold.eot);
-  src: url(./fonts/iransans/eot/IRANSansWeb_Bold.eot@) format("embedded-opentype"),
-    url(./fonts/iransans/woff2/IRANSansWeb_Bold.woff2) format("woff2"),
-    url(./fonts/iransans/woff/IRANSansWeb_Bold.woff) format("woff"),
-    url(./fonts/iransans/ttf/IRANSansWeb_Bold.ttf) format("truetype");
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-@font-face {
-  font-family: iransans;
-  font-style: normal;
-  font-weight: 500;
-  src: url(./fonts/iransans/eot/IRANSansWeb_Medium.eot);
-  src: url(./fonts/iransans/eot/IRANSansWeb_Medium.eot@) format("embedded-opentype"),
-    url(./fonts/iransans/woff2/IRANSansWeb_Medium.woff2) format("woff2"),
-    url(./fonts/iransans/woff/IRANSansWeb_Medium.woff) format("woff"),
-    url(./fonts/iransans/ttf/IRANSansWeb_Medium.ttf) format("truetype");
+.icon-esay-use:before {
+  content: "\e900";
 }
-
-@font-face {
-  font-family: iransans;
-  font-style: normal;
-  font-weight: 300;
-  src: url(./fonts/iransans/eot/IRANSansWeb_Light.eot);
-  src: url(./fonts/iransans/eot/IRANSansWeb_Light.eot@) format("embedded-opentype"),
-    url(./fonts/iransans/woff2/IRANSansWeb_Light.woff2) format("woff2"),
-    url(./fonts/iransans/woff/IRANSansWeb_Light.woff) format("woff"),
-    url(./fonts/iransans/ttf/IRANSansWeb_Light.ttf) format("truetype");
+.icon-filter:before {
+  content: "\e901";
 }
-
-@font-face {
-  font-family: iransans;
-  font-style: normal;
-  font-weight: 200;
-  src: url(./fonts/iransans/eot/IRANSansWeb_UltraLight.eot);
-  src: url(./fonts/iransans/eot/IRANSansWeb_UltraLight.eot@) format("embedded-opentype"),
-    url(./fonts/iransans/woff2/IRANSansWeb_UltraLight.woff2) format("woff2"),
-    url(./fonts/iransans/woff/IRANSansWeb_UltraLight.woff) format("woff"),
-    url(./fonts/iransans/ttf/IRANSansWeb_UltraLight.ttf) format("truetype");
+.icon-location:before {
+  content: "\e902";
 }
-
-@font-face {
-  font-family: iransans;
-  font-style: normal;
-  font-weight: 400;
-  src: url(./fonts/iransans/eot/IRANSansWeb.eot);
-  src: url(./fonts/iransans/eot/IRANSansWeb.eot@) format("embedded-opentype"),
-    url(./fonts/iransans/woff2/IRANSansWeb.woff2) format("woff2"),
-    url(./fonts/iransans/woff/IRANSansWeb.woff) format("woff"),
-    url(./fonts/iransans/ttf/IRANSansWeb.ttf) format("truetype");
-} */
+.icon-mail:before {
+  content: "\e903";
+}
+.icon-order:before {
+  content: "\e904";
+}
+.icon-phone:before {
+  content: "\e905";
+}
+.icon-portfoy:before {
+  content: "\e906";
+}
+.icon-speed:before {
+  content: "\e907";
+}
+.icon-team:before {
+  content: "\e908";
+}
+.icon-website:before {
+  content: "\e909";
+}
 
 body {
   color: #fff;
@@ -64,45 +55,24 @@ body {
   /* overflow-x: hidden; */
 }
 
-/* .container-with-background {
-  background-image: url("/landing-assets/images/bg.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
-  height: 100vh;
+.video_size {
+  width: 75%;
+  border: 0.5px solid #7891ff0c;
+  border-radius: 20px;
 }
 
-.container-with-background_2 {
-  background-image: url("/landing-assets/images/bg_2.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
-  height: 100vh;
-} */
-
-@media (max-width: 768px) {
-  .container-with-background {
-    /* background-image: none; */
-    height: 50vh;
-  }
-
-  .container-with-background_2 {
-    /* background-image: none; */
-    height: 75vh;
-  }
-
-  .title {
-    font-size: 16px;
-  }
+.icon-home {
+  font-size: 24px;
+  color: #fab352;
+  font-size: 50px;
 }
-
+.footer_icon {
+  font-size: 25px;
+}
 .p_size {
   font-size: 14px;
   font-weight: lighter;
 }
-
 .button {
   border-radius: 10px;
   border: 1px solid var(--blue-on-dark, #7890ff);
@@ -110,12 +80,10 @@ body {
   color: #7890ff;
   font-size: 14px;
 }
-
 .button:hover {
   background: rgba(120, 144, 255, 0.4);
   color: #7890ff;
 }
-
 .button_outline {
   border-radius: 10px;
   border: 1px solid var(--blue-on-dark, #7890ff);
@@ -123,28 +91,29 @@ body {
   color: #7890ff;
   font-size: 14px;
 }
-
 .button_outline:hover {
   background: rgba(120, 144, 255, 0.4);
   color: #7890ff;
 }
-
 .rounded-video {
   border-radius: 20px;
   overflow: hidden;
 }
-
 .rounded-video video {
   width: 100%;
   height: auto;
 }
-
+.logo {
+  height: 40px;
+}
 .section {
   /* min-height: 70vh; */
-  background: linear-gradient(180deg,
-      rgb(0, 9, 30) 0%,
-      rgba(0, 0, 0, 0.322) 23%,
-      rgb(0, 9, 30) 73%);
+  background: linear-gradient(
+    180deg,
+    rgb(0, 9, 30) 0%,
+    rgba(0, 0, 0, 0.322) 23%,
+    rgb(0, 9, 30) 73%
+  );
 }
 
 .card {
@@ -155,22 +124,38 @@ body {
 }
 
 .line {
-  background-color: aqua;
-  height: 2px;
-  width: 50%;
+  background-color: #fab352;
+  height: 0.5px;
+  width: 25%;
+}
+.card_high {
+  height: 300px;
+  border-radius: 20px;
 }
 
 .list-item {
-  background: linear-gradient(90deg,
-      rgba(48, 120, 190, 0) 25%,
-      rgba(38, 94, 149, 0.2) 70%);
+  background: linear-gradient(
+    90deg,
+    rgba(48, 120, 190, 0) 25%,
+    rgba(38, 94, 149, 0.2) 70%
+  );
+  border-radius: 8px;
 }
 
 .title {
-  font-size: 24px;
+  font-size: 20px;
+  font-weight: lighter;
 }
 
 img {
   max-width: max-content;
   height: auto;
+}
+@media (max-width: 768px) {
+  .video_size {
+    width: 100%;
+  }
+  .title {
+    font-size: 16px;
+  }
 }
