@@ -7,6 +7,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content=" زی نو تریدر، سامانه هوشمند معاملات برخط بازار سرمایه">
+    <link rel="icon" type="image/x-icon" href="<?php bloginfo('stylesheet_directory') ?>/landing-assets/images/favicon.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory') ?>/landing-assets/styles.css">
     <style>
@@ -137,7 +138,7 @@
                         <h3 class="fw-bold title">زی نــــو تریـــدر</h3>
                         <h5> سامانه هوشمند معاملات برخط بازار سرمایه</h5>
                         <p class="p_size">زی نو تریدر تجربه نو و لذت بخش از سرمایه گذاری را در بازارهای مالی فراهم کرده
-                            است . </p>
+                            است. </p>
                     </div>
                     <img src="<?php bloginfo('stylesheet_directory') ?>/landing-assets/images/hero.png" class="d-block w-100 mb-3 " alt="">
 
@@ -195,7 +196,7 @@
                         </div>
                         <p class="card-title">​​​استفاده آسان</p>
                         <div class="card-body">
-                            <p class="card-text p_size">زینو تریدر علاوه بر نسخه دسکتاب در گوشی های هوشمند Android و IOS
+                            <p class="card-text p_size">زی نو تریدر علاوه بر نسخه دسکتاب در گوشی های هوشمند Android و IOS
                                 به راحتی و بدون نیاز به APP Store ها قابلیت استفاده دارد.</p>
                         </div>
                         <div class="line "></div>
@@ -211,7 +212,7 @@
                         <p class="card-title">فیترهای هوشمند</p>
                         <div class="card-body">
                             <p class="card-text p_size">​​​​​​با استفاده از فیلترهای هوشمند و تحلیل خودکار روند لحظه ای
-                                بازار سهام را با سرعت بیشتری  رصد و شناسایی کنید . بیش از 50 فیلتر در زینو تریدر توسط
+                                بازار سهام را با سرعت بیشتری  رصد و شناسایی کنید. بیش از 50 فیلتر در زی نو تریدر توسط
                                 ربات های هوشمند به روز می شود. ​​​​​​​​​​​​​​​</p>
                         </div>
                         <div class="line "></div>
@@ -227,8 +228,7 @@
                         <p class="card-title">مدیریت پیشرفته سفارشات </p>
                         <div class="card-body">
                             <p class="card-text p_size">انواع ابزارهای پیشرفته برای مدیریت سفارشات مانند ارسال پی در پی
-                                ، ارسال گروهی ، ویرایش گروهی ، حذف گروهی.استفاده از کلید های میانبر ،تجمیع
-                                سفارشات و..​​​​​​​</p>
+                            گروهی، ویرایش گروهی، حذف گروهی.استفاده از کلید های میانبر، تجمیع، سفارشات و..​​​​​​​</p>
                         </div>
                         <div class="line "></div>
                     </div>
@@ -242,8 +242,7 @@
                         </div>
                         <p class="card-title"> سرعت </p>
                         <div class="card-body">
-                            <p class="card-text p_size">زینو تریدر با تاکید بر طراحی مدرن نرم افزاری و سرور های اختصاصی
-                                و قدرتمند، سرعت و امنیت بیشتری را مدیریت پنل معاملاتی فراهم ساخته است .​​​​​​​</p>
+                            <p class="card-text p_size">زی نو تریدر با تاکید بر طراحی مدرن نرم افزاری و سرور های اختصاصی و قدرتمند، سرعت و امنیت بیشتری را مدیریت پنل معاملاتی فراهم ساخته است. ​​​​​​​</p>
                         </div>
                         <div class="line "></div>
                     </div>
@@ -257,9 +256,9 @@
                         </div>
                         <p class="card-title"> تیم حرفه ای </p>
                         <div class="card-body">
-                            <p class="card-text p_size">با اقدامات امنیتی قوی کنترل ها و پایش های لحظه ای ، با آرامش و
-                                اطمینان خاطر معامله کنید . در هر لحظه  با استفاده از ابزارهای مدرن ، سلامت و صحت کارکرد
-                                سامانه توسط تیم حرفه ایی و چابک مانیتور گردد​​​​​​​​​​​​​​​​​​​​​</p>
+                            <p class="card-text p_size">با اقدامات امنیتی قوی کنترل ها و پایش های لحظه ای، با آرامش و
+                                اطمینان خاطر معامله کنید. در هر لحظه  با استفاده از ابزارهای مدرن، سلامت و صحت کارکرد
+                                سامانه توسط تیم حرفه ایی و چابک مانیتور می گردد.​​​​​​​​​​​​​​​​​​​​​</p>
                         </div>
                         <div class="line "></div>
                     </div>
@@ -273,10 +272,10 @@
                         </div>
                         <p class="card-title"> مدیریت پیشرفته پرتفوی</p>
                         <div class="card-body">
-                            <p class="card-text p_size">در زینو تریدر سود و زیان خود را به شکل لحظه ایی در کنار تاریخچه
-                                پرتفوی مدیریت کنید . در این سامانه هر تغییر به شکل کامل ثبت می گردد تا بتوانید روند
-                                سرمایه گذاری خود را مدیریت کنید و با اشتراک گذاری آن از حرفه ایی ها مشاوره بگیرید
-                                . ​​​​​​​</p>
+                            <p class="card-text p_size">در زی نو تریدر سود و زیان خود را به شکل لحظه ایی در کنار تاریخچه
+                                پرتفوی مدیریت کنید. در این سامانه هر تغییر به شکل کامل ثبت می گردد تا بتوانید روند
+                                سرمایه گذاری خود را مدیریت کنید و با اشتراک گذاری آن از حرفه ایی ها مشاوره بگیرید.
+                                </p>
                         </div>
                         <div class="line "></div>
                     </div>
@@ -304,7 +303,7 @@
                             </div>
                             <div class="list-item p-3 my-2 p_size">نمودار روند خرید و فروش حقیقی و حقوقی​​​​​​​</div>
                             <div class="list-item p-3 my-2 p_size">نمودار سهامدارن عمده شرکت​​​​​​​</div>
-                            <div class="list-item p-3 my-2 p_size">یاد داشت گذاری چند گانه برروی سهم​​​​​​​</div>
+                            <div class="list-item p-3 my-2 p_size">یادداشت گذاری چند گانه برروی سهم​​​​​​​</div>
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-7 col-lg-7">
@@ -317,7 +316,7 @@
                         <div class="d-flex flex-column g-3">
                             <div class="list-item p-3 my-2 p_size">نمودار لحظه ای صف و عمق بازار</div>
                             <div class="list-item p-3 my-2 p_size">مدیریت همزمان پرتفوی و سفارشات در صفحه اصلی</div>
-                            <div class="list-item p-3 my-2 p_size">ارسال سفارش به شکل پاپ آپ و چند تایی</div>
+                            <div class="list-item p-3 my-2 p_size">ارسال سفارش به شکل همزمان و چند تایی</div>
                             <div class="list-item p-3 my-2 p_size">نمودار رنج معاملاتی روز</div>
                             <div class="list-item p-3 my-2 p_size">حذف و ویرایش گروهی سفارشات</div>
                             <div class="list-item p-3 my-2 p_size">تحلیل کلی روند معاملاتی سهم​​​​​​​</div>
@@ -331,8 +330,8 @@
     <div class="section hero my-5 ">
         <div class="container-with-background_2 container-fluid">
             <div class="container d-flex flex-column align-items-center justify-content-center">
-                <h3 class="fw-bold text-center my-5 title">نسخه موبایل زی نو تریدر فراتر از یک ابزار معاملاتی ساده ،
-                    سریع ، با تمام امکانات
+                <h3 class="fw-bold text-center my-5 title">نسخه موبایل زی نو تریدر فراتر از یک ابزار معاملاتی ساده،
+                    سریع و با تمام امکانات
                     نسخه
                     دسکتاپ
                 </h3>
@@ -383,8 +382,8 @@
                         </div>
                         <div class="col-sm-6">
                             <a href="#" class="nav-link px-2 text-muted d-flex align-items-center gap-2"><i
-                                    class="icon-location footer_icon"></i>تهران ، بلوار آفریقا، کوچه
-                                سپرپلاک ۱۷</a>
+                                    class="icon-location footer_icon"></i>تهران، بلوار آفریقا، کوچه
+                                سپر، پلاک ۱۷</a>
                         </div>
                     </div>
                 </div>
